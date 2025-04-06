@@ -16,37 +16,19 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              Quem é a <span className="purple"> JB Solutions </span> ?
+              Quem é a <span className="purple"> Quasili </span> ?
             </h1>
             <p className="home-about-body">
-              A JB Solutions é uma empresa de consultoria de dados e
-              desenvolvimento de software. Nós ajudamos empresas a
-              transformar seus dados em insights valiosos, e a desenvolver
-              soluções de software personalizadas para atender às suas
-              necessidades específicas.
-              <br />
-              <br /> Trabalhamos com uma variedade de tecnologias e ferramentas como
-              <i>
-                <b className="purple"> Power BI e Python. </b>
-              </i>
+              A <b className="purple">Quasili</b> é uma empresa de <b className="purple">tecnologia</b> e <b className="purple">inovação</b> focada em transformar <b className="purple">dados</b>, <b className="purple">matemática</b> e <b className="purple">inteligência artificial</b> em <b className="purple">soluções práticas</b> e <b className="purple">impactantes</b>.
               <br />
               <br />
-              Trabalhamos em áreas de pesquisa como &nbsp;
-              <i>
-                <b className="purple">Visualização de Dados </b> e
-                inteligência artificial {" "}
-                <b className="purple">
-                  !
-                </b>
-              </i>
+              Ajudamos empresas a <b className="purple">extrair valor real</b> de seus <b className="purple">dados</b>, <b className="purple">automatizar processos</b> e criar <b className="purple">produtos digitais inteligentes</b>, usando abordagens baseadas em <b className="purple">estatística</b>, <b className="purple">machine learning</b> e <b className="purple">visualização de dados</b>.
               <br />
               <br />
-              Nossos serviços incluem:
-              <i>
-                <b className="purple"> Análise de Dados, Desenvolvimento de Software, </b>
-                e
-                <b className="purple"> Consultoria em TI.</b>
-              </i>
+              Trabalhamos com uma ampla variedade de ferramentas e linguagens como <b className="purple">Power BI</b>, <b className="purple">Python</b>, <b className="purple">Streamlit</b>, <b className="purple">React</b> e <b className="purple">algoritmos de IA</b>, com uma forte base matemática que nos permite explorar conceitos avançados como <b className="purple">modelos preditivos</b>, <b className="purple">automação de dados</b> e <b className="purple">agentes inteligentes</b>.
+              <br />
+              <br />
+              Também atuamos em áreas de <b className="purple">pesquisa aplicada</b>, como <b className="purple">visualização de dados interativos</b>, <b className="purple">aprendizado de máquina</b> e <b className="purple">agentes autônomos</b>, conectando inovação com resultados mensuráveis.
               <br />
               <br />
             </p>
