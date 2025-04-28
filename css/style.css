@@ -44,18 +44,39 @@ img{ max-width:100%;}
 a, a:hover, a:active{ outline:0px !important}
 
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	font-family: 'Satoshi';
+	src: url('../fonts/Satoshi-Regular.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Satoshi';
+	src: url('../fonts/Satoshi-Medium.otf') format('opentype');
+	font-weight: 500;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Satoshi';
+	src: url('../fonts/Satoshi-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Satoshi';
+	src: url('../fonts/Satoshi-Black.otf') format('opentype');
+	font-weight: 900;
+	font-style: normal;
+  }
+  
 
 /* Primary Styles
 ---------------------------------*/
 body {
 	background:#fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	font-size:14px;
 	font-weight:normal;
 	color:#888888;
@@ -64,25 +85,25 @@ body {
 h2{
 	font-size:34px;
 	color:#222222;
-	font-family: 'Montserrat', sans-serif;
-	font-weight:700;
+	font-family: 'Satoshi', sans-serif;
+	font-weight:800;
 	letter-spacing: -1px;
 	margin:0 0 15px 0;
 	text-align:center;
 	text-transform:uppercase;
 }
 h3{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	color:#222222;
 	font-size:16px;
 	margin:0 0 5px 0;
 	text-transform:uppercase;
-	font-weight:400;
+	font-weight:500;
 }
 h6{
 	font-size:16px;
 	color:#888888;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	font-weight:400;
 	text-align:center;
 	margin:0 0 60px 0;
@@ -98,14 +119,14 @@ p{
 .header{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:280px 0;
+	padding:60px 0;
 }
 .logo{
 	width:130px;
 	margin:0 auto 35px;
 }
 .header h1{
-	font-family: 'Montserrat',sans-serif;
+	font-family: 'Satoshi',sans-serif;
 	font-size:50px;
 	font-weight:400;
 	letter-spacing: -1px;
@@ -122,8 +143,8 @@ p{
 }
 .we-create li{
 	display:inline-block;
-	font-family: 'Montserrat',sans-serif;
-	font-size:14px;
+	font-family: 'Satoshi',sans-serif;
+	font-size:18px;
 	color: #bcbcbc;
 	text-transform: uppercase;
 	font-weight: 400;
@@ -149,7 +170,7 @@ color: #fff;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	display:inline-block;
 	border-radius:3px;
 	text-transform:uppercase;
@@ -194,7 +215,7 @@ color: #fff;
 	display:inline-block;
 	color:#222222;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	text-decoration: none;
 	line-height:20px;
 	margin:17px 32px;
@@ -205,7 +226,7 @@ color: #fff;
 
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #7cc576;
+	color: #190b90;
 }
 
 .small-logo{ 
@@ -227,7 +248,7 @@ color: #fff;
 }
 .service-list-col1{
 	float:left;
-	width:60px;
+	width:50px;
 }
 .service-list-col1 i{
 	font-style:normal;
@@ -295,7 +316,7 @@ color: #fff;
 	color:#7cc576;
 	font-size:16px;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	font-weight:400;
 	line-height:24px;
 	transition:all 0.3s ease-in-out;
@@ -333,7 +354,7 @@ color: #fff;
 	color:#222222;
 	border-radius:4px;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	background:#f7f7f7;
 	margin-bottom:5px;
 	transition:all 0.3s ease-in-out;
@@ -412,7 +433,7 @@ img {
 	font-size:28px;
 	line-height:41px;
 	margin:30px 0 10px;
-	font-family: ''Open Sans',sans-serif';
+	font-family: ''Satoshi',sans-serif';
 	font-style: italic;
 }
 .client{
@@ -578,6 +599,9 @@ border: 2px solid #fff;
 .team-leader ul li a:hover, .team-leader ul li a:focus{
 	text-decoration:none;
 }
+.team-leader ul li a.fa-linkedin:hover{
+	color:#190b90;
+}
 .team-leader ul li a.fa-twitter:hover{
 	color:#55acee;
 }
@@ -600,7 +624,7 @@ border: 2px solid #fff;
 	text-align:center;
 }
 .business-talking h2{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	font-weight:700;
 	padding:0;
 	margin:20px 0 70px;
@@ -699,7 +723,7 @@ border: 2px solid #fff;
 	border-radius:4px;
 	font-size:15px;
 	color:#aaa;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	margin:0 0 15px 0;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
@@ -726,7 +750,7 @@ border: 2px solid #fff;
 	color:#ffffff;
 	font-size:14px;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	font-weight:400;
 	border:0px;
 	transition:all 0.3s ease-in-out;
@@ -803,7 +827,7 @@ border: 2px solid #fff;
 
 .res-nav_click {
 	line-height:38px;
-	font-family: 'FontAwesome';
+	font-family: 'Satoshi', sans-serif;
 	font-size:38px;
 	text-decoration: none !important;
 	color:#777777;
@@ -870,4 +894,38 @@ border: 2px solid #fff;
 .delay-12s { 
 	animation-delay: 1.2s; 
 	-webkit-animation-delay: 1.2s; 
+}
+
+.contact {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact h6 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.contact-info h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info p a {
+    font-size: 18px;
+    color: #0077b5; /* Cor do LinkedIn */
+    text-decoration: none;
+}
+
+.contact-info p a:hover {
+    text-decoration: underline;
 }
