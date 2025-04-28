@@ -632,7 +632,7 @@ border: 2px solid #fff;
 .team-extra-info .extra-info-img {
     width: 40px; /* Ajuste o tamanho conforme necessário */
     height: 40px;
-    object-fit: hover; /* Garante que a imagem se ajuste ao contêiner */
+    object-fit: contain; /* Garante que a imagem se ajuste ao contêiner */
 }
 
 /* Talk Business
